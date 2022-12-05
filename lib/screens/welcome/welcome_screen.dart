@@ -15,7 +15,7 @@ class WelcomeScreen extends StatelessWidget {
             Image.asset("assets/images/welcome_image.png"),
             const Spacer(flex: 3),
             Text(
-              "Welcome to our freedom \nmessaging app",
+              "Welcome to our Freedom \nMessenger app",
               textAlign: TextAlign.center,
               style: Theme.of(context)
                   .textTheme
