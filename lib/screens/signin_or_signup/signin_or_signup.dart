@@ -16,7 +16,7 @@ class SigninOrSignupScreen extends StatelessWidget {
             children: [
               const Spacer(flex: 2),
               Image.asset(
-                    "assets/images/Logo_light.png",
+                    "assets/images/logo.png",
                 height: 146,
               ),
               const Spacer(),

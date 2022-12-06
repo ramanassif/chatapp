@@ -28,7 +28,7 @@ ThemeData lightThemeData(BuildContext context) {
 ThemeData darkThemeData(BuildContext context) {
   return ThemeData.dark().copyWith(
     primaryColor: kPrimaryColor,
-    scaffoldBackgroundColor: kContentColorLightTheme,
+    //scaffoldBackgroundColor: kContentColorLightTheme,
     appBarTheme: appBarTheme,
     iconTheme: const IconThemeData(color: kContentColorDarkTheme),
     textTheme: GoogleFonts.interTextTheme(Theme.of(context).textTheme)

@@ -1,4 +1,3 @@
-
 import 'package:chatapp/constants.dart';
 import 'package:chatapp/screens/chats/components/body.dart';
 import 'package:flutter/material.dart';
@@ -12,7 +11,8 @@ class ChatsScreen extends StatefulWidget {
 }
 
 class _ChatsScreenState extends State<ChatsScreen> {
-  int _selectedIndex = 1;
+  int _selectedIndex = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
