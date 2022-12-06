@@ -1,6 +1,6 @@
 # chatapp
 
-A new Flutter project.
+A new Flutter project,chat application using web socket channel.
 
 ## Getting Started
 
